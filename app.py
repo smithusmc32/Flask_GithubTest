@@ -23,6 +23,10 @@ def team1000m1000():
     print("Rahul Kashyap")
     
 
+@app.route('/stocks')
+def team5m2():
+    print("Anthony Smith")
+
 if __name__ == "__main__": app.run(debug=True)
 
 
@@ -47,4 +51,4 @@ if __name__ == "__main__": app.run(debug=True)
 # @app.route('/stocks')
 # def stocks():
 #     stocks = ['Apple', 'Microsoft']
-#     return render_template('stocks.html', stocks=stocks)
+#     return render_template('stocks.html', stocks=stoc
